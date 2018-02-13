@@ -1,0 +1,87 @@
+button {
+  border: 1px solid lightgrey;
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0 5px 0 lightgrey;
+  color: black;
+  cursor: pointer;
+  font: inherit;
+  margin: 20px;
+  outline: 0;
+  padding: 5px 10px;
+  transition: all .1s linear;
+
+}
+
+button:hover{
+  box-shadow: 15px 20px 0 grey;
+  transform: translateY(3px);
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Cabin Sketch', cursive;
+  font-size: 4em;
+}
+h1:hover {
+  transform: rotateY(180deg);
+	transition: all 3s ease-in-out;
+}
+
+p {position: absolute;
+margin-left: 75px;
+margin-top: 80px;
+font-size: 100px;
+font-family: 'Anton', sans-serif;
+color: white;
+
+}
+
+.head{
+	background-color: lightgrey;
+	padding: 10px;
+}
+
+.nav {
+  font-family: 'Quicksand', sans-serif;
+  margin: 200px;
+  margin-top: 20px;
+  margin-left: 620px;
+  margin-bottom: 90px;
+}
+
+
+
+
+
+
+
+.text {
+ margin-left: 630px;
+ margin-top: -70px;
+ margin-bottom: 25px;
+ font-family: 'Poiret One', cursive;
+ font-size: 1.3em;
+
+
+}
+
+
+
+
+
+.ball {
+	margin-left: 690px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: black;
+	animation: bounce 0.5s cubic-bezier(.5,0.05,1,.5);
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  from { transform: translate3d(0, 0, 0);     }
+  to   { transform: translate3d(0, 400px, 0); }
+}

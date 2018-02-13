@@ -1,0 +1,153 @@
+button {
+  border: 1px solid lightgrey;
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0 5px 0 lightgrey;
+  color: black;
+  cursor: pointer;
+  font: inherit;
+  margin: 20px;
+  outline: 0;
+  padding: 5px 10px;
+  transition: all .1s linear;
+
+}
+
+button:hover{
+  box-shadow: 15px 20px 0 grey;
+  transform: translateY(3px);
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Cabin Sketch', cursive;
+  font-size: 4em;
+}
+h1:hover {
+  transform: rotateY(180deg);
+	transition: all 3s ease-in-out;
+}
+
+.head{
+	background-color: lightgrey;
+	padding: 10px;
+}
+
+.nav {
+	font-family: 'Quicksand', sans-serif;
+	margin: 200px;
+	margin-top: 20px;
+	margin-left: 620px;
+	margin-bottom: 90px;
+}
+
+
+
+
+
+
+.square3{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 700px;
+  width: 300px;
+  height: 300px;
+  background-color: grey;
+  animation-name: spin;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+
+
+.square2 {
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 700px;
+  width: 300px;
+  height: 300px;
+  background-color: lightgrey;
+  animation-name: spin;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.square {
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 700px;
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  animation-name: spin;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.square4 {
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 750px;
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  animation-name: spin;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.square5 {
+	position: absolute;
+	margin-top: 125px;
+	margin-left: 775px;
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  animation-name: spin;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+
+
+.circle
+ {
+	 position: absolute;
+	 margin-left: 800px;
+	 margin-top: 150px;
+	width: 100px;
+	height: 100px;
+	background: lightgrey;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+.text {
+ margin-left: 680px;
+ margin-top: -70px;
+ margin-bottom: 90px;
+ font-family: 'Poiret One', cursive;
+ font-size: 1.3em;
+
+
+}
+
+p {
+	font-size: 3em;
+	color: lightgrey;
+}

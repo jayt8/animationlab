@@ -1,0 +1,88 @@
+button {
+  border: 1px solid lightgrey;
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0 5px 0 lightgrey;
+  color: black;
+  cursor: pointer;
+  font: inherit;
+  margin: 20px;
+  outline: 0;
+  padding: 5px 10px;
+  transition: all .1s linear;
+
+}
+
+button:hover{
+  box-shadow: 15px 20px 0 grey;
+  transform: translateY(3px);
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Cabin Sketch', cursive;
+  font-size: 4em;
+}
+h1:hover {
+  transform: rotateY(180deg);
+	transition: all 3s ease-in-out;
+}
+
+p {position: absolute;
+margin-left: 75px;
+margin-top: 80px;
+font-size: 100px;
+font-family: 'Anton', sans-serif;
+color: white;
+
+}
+
+.head{
+	background-color: lightgrey;
+	padding: 10px;
+}
+
+.nav {
+  font-family: 'Quicksand', sans-serif;
+  margin: 200px;
+  margin-top: 20px;
+  margin-left: 620px;
+  margin-bottom: 90px;
+}
+
+
+.square1 {
+    position: absolute;
+    margin-left: 650px;
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    animation: change 1s infinite alternate;
+}
+
+@keyframes change{
+  0%  {
+    border-radius: 0;
+    background: black;
+    transform: rotate(0deg);
+
+  }
+  100% {
+    border-radius: 50%;
+    background: grey;
+    transform: rotate(180deg);
+  }
+}
+
+
+
+
+.text {
+ margin-left: 680px;
+ margin-top: -70px;
+ margin-bottom: 45px;
+ font-family: 'Poiret One', cursive;
+ font-size: 1.3em;
+
+
+}
